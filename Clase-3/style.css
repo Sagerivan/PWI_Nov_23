@@ -1,0 +1,61 @@
+
+/* Para ocupar el total del alto de la pantalla hay que usar view heigt*/
+body{
+    margin: 0px;
+}
+
+h1{
+    margin: 0px;
+    background-color: rgb(100, 40, 70);
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+p{
+    color: blue;
+}
+
+.texto{
+    color: green;
+    background-color: rgb(40, 220, 200,0.5);
+}
+
+#botonParticular{
+    color: red;
+}
+
+button{
+    background-color: #4487f7;
+}
+
+.tarjeta{
+    width: 600px;
+    height: 500px;
+    background-color: yellow;
+}
+
+
+#texto-tarjeta{
+    width: 50%;
+    height: 20%;
+    background-color: orange;
+}
+a{
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
