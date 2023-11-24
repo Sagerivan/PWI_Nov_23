@@ -1,0 +1,17 @@
+
+/* selector + asume que es una etiqueta que esta pegada a otra*/
+
+p + button{
+    color: red;
+}
+
+/* selector ~ es para una etiqueta que esta cercana dentro de un mismo contenedor*/
+ul ~ p{
+    background-color: yellow;
+}
+
+/* Estila el elemento que se encuentra dentro del elementos de la izquierda*/
+
+div>p{
+    background-color: green;
+}
