@@ -1,0 +1,54 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    text-align: center;
+}
+.contenedor-padre{
+    background-color: deepskyblue;
+    width: 800px;
+    height: 700px;
+}
+.cubo{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #8b0000;
+    background-color: brown;
+    color: white;
+    font-size: 20px;
+}
+
+.static{
+    position: static;
+    margin-left: 280px;
+}
+
+.relative{
+    background-color: green;
+    position: relative;
+    left: 200px;
+    bottom: 80px;
+}
+
+.absolute{
+    background-color: yellow;
+    position: absolute;
+    left: 50px;
+    color: black;
+    top: 10px;
+}
+
+.fixed{
+    background-color: aqua;
+    color: black;
+    position: fixed;
+    right: 0;
+    top: 20px;
+}
+
+.sticky{
+    background-color: blueviolet;
+    position: sticky;
+    bottom: 400px;
+    left: 500px;
+}
